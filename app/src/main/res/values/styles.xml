@@ -9,5 +9,11 @@
     <style name="TitleTextSize" parent="@style/Base.TextAppearance.AppCompat.Title">
         <item name="android:textSize">18sp</item>
     </style>
-
+    <style name="ToolbarPopupTheme" parent="@style/ThemeOverlay.AppCompat.Light">
+        <item name="android:colorBackground">#FFF</item>
+        <item name="actionOverflowMenuStyle">@style/OverflowMenuStyle</item>
+    </style>
+    <style name="OverflowMenuStyle" parent="Widget.AppCompat.Light.PopupMenu.Overflow">
+        <item name="overlapAnchor">false</item>  <!--讓跳出的選項視窗不會遮住Toolbar-->
+    </style>
 </resources>

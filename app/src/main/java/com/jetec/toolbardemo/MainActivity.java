@@ -44,6 +44,8 @@ public class MainActivity extends AppCompatActivity {
         toolbar.setNavigationOnClickListener(v->{
             Toast.makeText(this, "結束", Toast.LENGTH_SHORT).show();
         });
+//        toolbar.inflateMenu(請自己在menu設置一個xml檔案);
+//        如果想使用xml Layout檔案，請去建一個吧～
 
     }
     /**使選項內Icon與文字並存*/
@@ -83,6 +85,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case 3:
                 Toast.makeText(this, "選帶ICON的Item", Toast.LENGTH_SHORT).show();
+                break;
             case 4:
                 Toast.makeText(this, "選在外面的", Toast.LENGTH_SHORT).show();
                 break;

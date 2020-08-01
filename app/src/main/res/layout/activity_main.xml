@@ -16,6 +16,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:theme="@style/ThemeOverlay.AppCompat.DayNight.ActionBar"
+        app:popupTheme="@style/ToolbarPopupTheme"
         app:titleTextAppearance="@style/TitleTextSize"
         />
 </androidx.constraintlayout.widget.ConstraintLayout>
